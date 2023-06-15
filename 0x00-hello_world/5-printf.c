@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 /**
- *  main - Enter point
+ * main - Enter point
  *
- *  Description: A C program that print with printf function.
+ * Description: A C program that print with printf function.
  *
- *  return: alwys 0 (Success)
- */
+ * Return: always 0 (Success)
+*/
 
 int main(void)
 {
-printf("with proper grammar, but the outcome is a piece of art, /n");
-return (0);
+	printf("with proper grammar, but the outcome is a piece of art, /n");
+	return (0);
 }
