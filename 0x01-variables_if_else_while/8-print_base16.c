@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int digit = 4;
+	int digit = 48;
 
 	while (digit <= 102)
 	{
