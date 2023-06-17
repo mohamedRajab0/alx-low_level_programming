@@ -16,11 +16,11 @@ int main(void)
 	while (ch <= 'z')
 	{
 		putchar(ch);
-		ch++
+		ch++;
 	}
 	while (CH <= 'Z')
 		putchar(CH);
-		CH++
+		CH++;
 	}
 	putchar('\n');
 	return (0);
