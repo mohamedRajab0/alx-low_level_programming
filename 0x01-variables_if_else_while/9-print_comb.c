@@ -20,7 +20,7 @@ int main(void)
 			putchar(',');
 			puthcar(' ');
 		}
-		digit++
+		digit++;
 	}
 	putchar('\n');
 	return (0);
