@@ -3,9 +3,10 @@
 /**
  * main - Entry point
  *
- * Description: print 0, 1, -9
+ * Description: print all possible
+ * different combints
  *
- * Return : 0 (success)
+ * Return: alwys 0 (success)
 */
 
 int main(void)
