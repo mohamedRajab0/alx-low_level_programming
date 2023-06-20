@@ -1,4 +1,4 @@
-#include <stdio,h>
+#include <stdio.h>
 
 /**
  * main - print the frist 50 fibonacci numbers, strating with 1 and 2
