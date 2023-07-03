@@ -13,7 +13,7 @@
 
 char *_strchr(char *s, char c)
 {
-	int a;
+	int j;
 
 	while (1)
 	{
