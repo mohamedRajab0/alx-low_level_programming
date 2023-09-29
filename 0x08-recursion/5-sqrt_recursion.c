@@ -1,5 +1,7 @@
 #include "main.h"
 
+int real_sqrt_recursion(int n, int i);
+
 /**
  * _sqrt_recursion - function that return
  * the natural square root of a number
@@ -33,3 +35,4 @@ int real_sqrt_recursion(int n, int i)
 		return (i);
 	return (real_sqrt_recursion(n, i + 1));
 }
+
