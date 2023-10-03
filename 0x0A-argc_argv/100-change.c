@@ -12,29 +12,33 @@
 
 int main(int argc, char *argv[])
 {
-	if (argc == 2)
-	{
-	int i, le = 0, money = atoi(argv[1]);
+	int i, j, money;
 	int cents[] = {25, 10, 5, 2, 1};
 
-	for (i = 0; i < 5; i++)
-	{
-		if (money >= cents[i])
-		{
-			le += money / cents[i];
-			money = money % cents[i];
-			if (money % cents[i] == 0)
-			{
-				break;
-			}
-		}
-	}
-	printf("%d\n", le);
-	}
-	else
+	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
+
+	i = atoi(argv[1]);
+	money = 0;
+
+	if (i < 0)
+	{
+		printf("0\n");
+		return (0);
+	}
+
+	for (j = 0; j < 5 && i >= 0; j++)
+	{
+		while (i >= cents[j])
+		{
+			money++;
+			i -= cents[j];
+		}
+	}
+
+	printf("%d\n", money);
 	return (0);
 }
