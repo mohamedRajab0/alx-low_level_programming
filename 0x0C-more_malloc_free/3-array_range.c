@@ -4,7 +4,7 @@
 /**
  * *array_range - creates an array of integers.
  * @min: starting int
- * @mak: mak int
+ * @max: mak int
  *
  * Return: array of int
 */
