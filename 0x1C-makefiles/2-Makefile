@@ -6,4 +6,4 @@ NAME = school
 all:  bulid
 
 bulid: $(OBJ)
-	$(CC) $(SRC) $(OBJ) $(NAME)
+	$(CC) $(OBJ) $(NAME)

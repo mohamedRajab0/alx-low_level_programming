@@ -5,7 +5,7 @@ NAME = school
 RM = rm -f
 all:  bulid
 
-bulid:
+bulid: $(OBJ)
 	$(CC) $(SRC) $(OBJ) $(NAME)
 
 clean:
