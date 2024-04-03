@@ -1,9 +1,9 @@
 CC = gcc
 SRC = main.c school.c
-OBJ = $(SRC:.c=.o)
+OBJ = .o
 NAME = school
 
 all:  bulid
 
 bulid: $(OBJ)
-	$(CC) $(OBJ) $(NAME)
+	$(CC) $(SRC) $(OBJ) $(NAME)
